@@ -1,5 +1,5 @@
 using System.Runtime.CompilerServices;
-public class Sword : Item
+public class Sword /*inte pointy stick*/: Item
 {
     private int MinDmg = Random.Shared.Next(1, 5);
     private int MaxDmg = Random.Shared.Next(10, 15);
